@@ -1,56 +1,128 @@
-# Welcome to your Expo app 👋
+# ☕ Coffee Buzz
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern coffee ordering mobile application built with **React Native**, **Expo**, and **Expo Router**. The app provides a clean and user-friendly interface for browsing coffee, viewing product details, adding items to the cart, and completing a simulated payment flow.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Features
 
-   ```bash
-   npm install
-   ```
+- 🔐 User Login Screen
+- 👋 Splash & Onboarding Screens
+- 🏠 Modern Home Screen
+- 🔍 Search Coffee
+- 📋 Interactive Menu
+- ☕ Product Details
+- 📦 Add to Cart
+- 🛒 Shopping Cart
+- 💳 Payment Screen
+- 🔔 Notifications
+- 📱 Responsive UI Design
+- ⚡ Built using Expo Router Navigation
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📸 Screens
 
-In the output, you'll find options to open the app in a
+- Splash Screen
+- Onboarding
+- Login
+- Home
+- Search
+- Menu
+- Product Details
+- Cart
+- Payment
+- Notifications
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Tech Stack
 
-## Get a fresh project
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+- React Hooks
+- Context API
+- React Native Components
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
+## 📂 Project Structure
+
+```
+src/
+│
+├── app/
+│   ├── splash.tsx
+│   ├── login.tsx
+│   ├── home.tsx
+│   ├── menu.tsx
+│   ├── search.tsx
+│   ├── details.tsx
+│   ├── cart.tsx
+│   ├── payment.tsx
+│   ├── notification.tsx
+│   └── _layout.tsx
+│
+├── context/
+│   └── CartContext.tsx
+│
+└── assets/
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+## 🚀 Installation
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Clone the repository
 
-## Learn more
+```bash
+git clone https://github.com/Srijita-TechSeeker/coffee-buzz.git
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Move into the project
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+cd coffee-buzz
+```
 
-## Join the community
+Install dependencies
 
-Join our community of developers creating universal apps.
+```bash
+npm install
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Start Expo
+
+```bash
+npx expo start
+```
+
+---
+
+## 📌 Future Improvements
+
+- User Authentication
+- Firebase Backend
+- Order History
+- Favorites
+- Dark Mode
+- Real Payment Gateway
+- Profile Management
+- API Integration
+
+---
+
+## 👩‍💻 Author
+
+**Srijita**
+
+GitHub:
+https://github.com/Srijita-TechSeeker
+
+---
+
+## ⭐ If you like this project
+
+Please consider giving it a **Star ⭐** on GitHub.
